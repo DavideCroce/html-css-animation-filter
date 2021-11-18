@@ -104,3 +104,52 @@
         transform: rotate(1turn);
     }
 }
+
+/*esercizio-11*/
+
+.ex-11-icon{
+    animation: quarterspin 2s linear infinite;
+}
+
+@keyframes quarterspin{
+    0%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(calc((360deg * 3) /4));
+    }
+}
+
+/*esercizio-12*/
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: movementT 1.5s linear infinite;
+}
+
+@keyframes movementT{
+    0%{
+        left: 15%;
+    }
+    50%{
+        left: calc(75% - 15%);
+    }
+    100%{
+        left: 15%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: movementB 1s linear infinite;
+}
+
+@keyframes movementB{
+    0%{
+        right: 40%;
+    }
+    50%{
+        right: calc(60% - 40%);
+    }
+    100%{
+        right: 40%;
+    }
+}
