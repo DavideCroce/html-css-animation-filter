@@ -52,3 +52,11 @@
 .ex-5-square:active{
    transform: scale(0.4)
 }
+
+
+/*esercizio-6*/
+
+.ex-6-img:hover{
+   filter: grayscale(1);
+}
+
