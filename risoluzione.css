@@ -92,3 +92,15 @@
     border-radius: 15px;
     filter: grayscale(0.7);
 }
+
+/*esercizio-10*/
+
+.ex-10-icon{
+    animation: spin 3s linear infinite ;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
+}
